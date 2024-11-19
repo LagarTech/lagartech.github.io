@@ -5363,6 +5363,7 @@ textarea.form-control-lg {
   position: relative;
   flex: 1 1 auto;
   padding: var(--bs-modal-padding);
+  color: #000;
 }
 
 .modal-footer {
@@ -7010,6 +7011,8 @@ textarea.form-control-lg {
 
 .d-grid {
   display: grid !important;
+  
+  
 }
 
 .d-table {
@@ -8014,7 +8017,10 @@ textarea.form-control-lg {
 .text-uppercase {
   text-transform: uppercase !important;
 }
-
+.text-uppercase-ventanas {
+  text-transform: uppercase !important;
+  color: #101214;
+}
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -8157,7 +8163,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url("../assets/img/paneles menú.png");
 }
 
 .bg-dark {
@@ -10839,11 +10845,13 @@ p {
 
 .page-section {
   padding: 6rem 0;
+
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #1a1e21;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -10851,6 +10859,7 @@ p {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+  
 }
 
 @media (min-width: 768px) {
@@ -10926,7 +10935,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-image: url("../assets/img/paneles menú.png");
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10966,6 +10975,7 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 }
 
 @media (min-width: 768px) {
@@ -11044,6 +11054,11 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.portfolio-modal .modal-content p.item-ventanas {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11262,7 +11277,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #000;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
