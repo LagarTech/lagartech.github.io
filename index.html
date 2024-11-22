@@ -639,9 +639,11 @@
                                     <h2 class="text-uppercase-ventanas">Programación</h2>
                                     <p class="item-intro text-muted">Sigue desde dentro TimeSpin </p>
                                     
-                                    <p>El sistema que se ha utilizado para la sincronización entre los clientes es Netcode for GameObjects, con la particularidad de emplear los WebSockets como transporte para poder ser jugable en WebGL.
-                                        para crear una sala, se busca un servidor vacío, mediante Matchmaking, que se sostiene utilizando el servicio de Multiplay Hosting. una vez el jugador de una a un servidor, se crea la sala empleando las Lobbies de Unity, y se almacenan los datos del servidor en ellas.
-                                        los demás jugadores se pueden conectar al servidor dedicado, ya que, al introducir la clave de la sala y acceder a ella, consiguen automáticamente los datos del servidor y se establece la conexión</p>
+                                    <p>Para hacer mas eficiente la programación, hemos seguido una estructura similar en los controladores de cada minijuego, logrando así que el código sea mas legible y escalable a futuros minijuegos.
+                                        se han utilizado patrones de software adaptados a nuestro contexto para optimizar el código, como por ejemplo, object pool, singleton, fly weight, etc.<br>
+                                        Además, contamos con un algoritmo de búsqueda con inteligencia artificial, basado en el algoritmo a*.<br>
+                                        También hemos incluido la programación de un shader para lograr el estilo gráfico deseado.<br>
+                                        Por último, para la mecánica de competitividad de usuarios, se ha empleado el servicio de unity de las leaderboards</p>
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
